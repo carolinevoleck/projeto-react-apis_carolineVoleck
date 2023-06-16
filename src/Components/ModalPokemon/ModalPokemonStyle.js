@@ -16,12 +16,12 @@ export const Container = styled.div`
 `;
 
 export const Modal = styled.div`
-  min-width: 451px;
-  height: 222px;
-  padding: 60px;
+  min-width: 28.1875rem;
+  height: 13.875rem;
+  padding: 3.75rem;
   background-color: white;
   color: #000000;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 
   text-align: center;
   font-family: "Poppins";

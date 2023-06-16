@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerDetailPage = styled.div`
   height: 100%;
   background-color: #5d5d5d;
-  margin-bottom: 180px;
+  margin-bottom: 11.25rem;
 
   display: flex;
   flex-direction: column;
@@ -14,14 +14,14 @@ export const ContainerDetailPage = styled.div`
 
 export const TitleDetails = styled.h2`
   margin-right: 77%;
-  padding: 20px;
+  padding: 1.25rem;
   margin-top: 2%;
   margin-bottom: 2%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 72px;
+  font-size: 3rem;
+  line-height: 4.5rem;
   color: #ffffff;
 `;
 
@@ -30,7 +30,7 @@ export const CardDetails = styled.div`
   padding: 1rem;
   color: white;
   font-family: Inter;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 
   position: relative;
   display: flex;
@@ -41,56 +41,56 @@ export const CardDetails = styled.div`
   }
 
   .idPokemon {
-    width: 30px;
-    height: 19px;
+    width: 1.875rem;
+    height: 1.1875rem;
 
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.1875rem;
     color: #ffffff;
 
     position: absolute;
-    left: 690px;
-    top: 24px;
+    left: 43.125rem;
+    top: 1.5rem;
   }
 
   .name {
-    width: 238px;
-    height: 58px;
+    width: 14.875rem;
+    height: 3.625rem;
 
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 3rem;
+    line-height: 3.625rem;
     color: #ffffff;
     text-transform: capitalize;
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 
     position: absolute;
-    left: 690px;
-    top: 39px;
+    left: 43.125rem;
+    top: 2.4375rem;
   }
 
   .imgPokemon {
-    width: 220px;
-    height: 220px;
+    width: 13.75rem;
+    height: 13.75rem;
 
     position: absolute;
     left: 80%;
-    top: -105px;
+    top: -6.5625rem;
     z-index: 1;
   }
 `;
 
 export const BoxPokemon = styled.div`
-  width: 215px;
-  height: 215px;
-  margin: 1rem;
+  width: 13.4375rem;
+  height: 13.4375rem;
+  margin: 16px;
   background: #ffffff;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 
   display: flex;
   justify-content: center;
@@ -103,13 +103,13 @@ export const BoxPokemon = styled.div`
 `;
 
 export const ContainerBaseStats = styled.div`
-  width: 340px;
-  height: 462px;
-  margin: 1rem;
-  padding: 1.2rem;
+  width: 21.25rem;
+  height: 28.875rem;
+  margin: 16px;
+  padding: 19.2px;
 
   background: #ffffff;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 
   hr {
     margin: 0.5rem;
@@ -135,7 +135,7 @@ export const BaseStats = styled.div`
   justify-content: center;
 
   span {
-    width: 50px;
+    width: 3.125rem;
     margin-left: 1rem;
     font-size: 0.8rem;
   }
@@ -158,7 +158,7 @@ export const BaseStats = styled.div`
 `;
 
 export const BarPokemon = styled.div`
-  width: 190px;
+  width: 11.875rem;
   height: fit-content;
   margin-left: 0.3rem;
   background-color: white;
@@ -168,19 +168,19 @@ export const BarPokemon = styled.div`
 
 export const Progress = styled.div`
   width: ${(props) => props.width}%;
-  height: 10px;
+  height: 0.625rem;
 
-  border-radius: 2px;
+  border-radius: 0.125rem;
   background-color: #ff7c2e;
 `;
 
 export const PokemonTypeContainer = styled.div`
-  width: 99px;
-  height: 31px;
+  width: 6.1875rem;
+  height: 1.9375rem;
 
   position: absolute;
-  left: 690px;
-  top: 107px;
+  left: 43.125rem;
+  top: 6.6875rem;
 
   div {
     display: flex;
@@ -188,16 +188,16 @@ export const PokemonTypeContainer = styled.div`
   }
 
   .imgTypePokemon {
-    max-width: 100px;
-    height: 32px;
-    margin-right: 8px;
+    max-width: 6.25rem;
+    height: 2rem;
+    margin-right: 0.5rem;
   }
 `;
 
 export const ContainerMoves = styled.div`
-  width: 292px;
+  width: 18.25rem;
   background: #ffffff;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 
   margin: 1rem;
   margin-top: 9rem;
@@ -220,18 +220,17 @@ export const ContainerMoves = styled.div`
 
 export const TypeItemPokemon = styled.li`
   width: fit-content;
-  height: 37px;
-  padding: 10px;
-  margin: 5px;
-  border: 1px dashed rgba(0, 0, 0, 0.14);
-  border-radius: 12px;
+  height: 2.3125rem;
+  padding: 0.625rem;
+  margin: 0.3125rem;
+  border: 0.0625rem dashed rgba(0, 0, 0, 0.14);
+  border-radius: 0.75rem;
   background: #ececec;
   font-family: "Poppins", sans-serif;
   list-style: none;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: black;
-
   display: flex;
   align-items: center;
 `;
@@ -240,7 +239,7 @@ export const Pokebola = styled.div`
   width: 100%;
   height: 100%;
 
-  border-radius: 10px;
+  border-radius: 0.625rem;
   overflow: hidden;
 
   position: absolute;
@@ -249,10 +248,10 @@ export const Pokebola = styled.div`
 `;
 
 export const LogoPokemon = styled.img`
-  width: 750px;
-  height: 720px;
+  width: 46.875rem;
+  height: 45rem;
 
   position: absolute;
-  top: -97px;
-  right: -115px;
+  top: -6.0625rem;
+  right: -7.1875rem;
 `;
